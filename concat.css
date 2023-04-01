@@ -1,14 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  transition: 1s ease;
   box-sizing: border-box;
 }
 
 body {
-  width: 100%;
-  width: 100%;
-  margin: 0 auto;
   font-family: sans-serif;
 }
 
@@ -19,7 +15,6 @@ a {
 }
 
 header {
-  width: 100%;
   background-color: #1E1E1E;
 }
 header .head-links {
@@ -52,66 +47,129 @@ header .head-links button {
   padding: 12px 24px;
 }
 
-.five-people {
+.get-in-touch {
   width: 100%;
-  text-align: center;
-  padding: 30px 0px;
-  background-color: #F9F5F2;
-}
-.five-people button {
-  padding: 15px 16px;
-  background-color: #FFDEC6;
-  border-radius: 20px;
-  margin: 0 auto;
-  border: none;
-  outline: none;
-}
-.five-people p {
-  font-size: 40px;
-  font-weight: 700;
-  color: black;
-  width: 450px;
-  margin: 15px auto;
-}
-.five-people .images-grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 20px;
-}
-.five-people .images-grid img {
-  width: 100%;
-  height: 350px;
-  border-radius: 10px;
-}
-.five-people .numbers {
-  padding: 60px 20px;
+  background-color: #1E1E1E;
+  padding-top: 5%;
+  padding-left: 18.5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #FFFFFF;
+}
+.get-in-touch .left-div {
   width: 100%;
 }
-.five-people .numbers span {
-  display: block;
-}
-.five-people .numbers p {
-  font-size: 64px;
+.get-in-touch .left-div p:first-child {
+  width: 550px;
+  font-size: 40px;
   font-weight: 900;
 }
-.five-people .numbers p span {
-  display: inline-block;
+.get-in-touch .left-div p:nth-child(2) {
+  margin: 20px 0px;
+  line-height: 20px;
+  width: 400px;
+  letter-spacing: 2px;
+  font-size: 15px;
 }
-.five-people .numbers p .spn1 {
-  color: #FF3C78;
+.get-in-touch .left-div p:nth-child(4) {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px 0px;
 }
-.five-people .numbers p .spn2 {
-  color: #F0B143;
+.get-in-touch .left-div .not {
+  width: 25%;
+  margin: 30px 0px;
+  height: 2px;
+  border: 2px dotted grey;
 }
-.five-people .numbers p .spn3 {
-  color: #2241CF;
+.get-in-touch .left-div .soc {
+  font-size: 32px;
+  margin: 20px 0px;
+  font-weight: 600;
 }
-.five-people .numbers p .spn4 {
+.get-in-touch .left-div .imm {
+  width: 30%;
+}
+.get-in-touch .left-div .imm img {
+  margin-left: 20px;
+}
+.get-in-touch .left-div .par {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 50px 0px;
+}
+.get-in-touch .left-div .par img {
+  margin: -10px 5px;
+}
+.get-in-touch .right-div {
+  width: 100%;
+}
+.get-in-touch .log-in {
+  width: 80%;
+  height: 75vh;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+.get-in-touch .log-in p:first-child {
   color: black;
+  margin: 20px auto;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.get-in-touch .log-in .box {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.get-in-touch .log-in .box .checkbox {
+  margin: 5px;
+  height: 15px;
+  width: 30px;
+}
+.get-in-touch .log-in .box p {
+  position: relative;
+  top: 15%;
+  font-size: 13px;
+  line-height: 20px;
+  color: #474747;
+}
+.get-in-touch .log-in button {
+  padding: 15px 25px;
+  margin: 25px 15px;
+  background-color: #2241CF;
+  border-radius: 20px;
+  color: white;
+}
+.get-in-touch .log-in .names {
+  width: 40%;
+  padding: 20px 16px;
+  margin: 22px;
+  outline: none;
+  border: #E1E1E1 1px solid;
+  border-radius: 15px;
+  background-color: #F5F8FA;
+}
+.get-in-touch .log-in .worldMall {
+  width: 90%;
+  padding: 20px 16px;
+  margin: 22px;
+  outline: none;
+  border: #E1E1E1 1px solid;
+  border-radius: 15px;
+  background-color: #F5F8FA;
+}
+.get-in-touch .log-in .Message {
+  width: 90%;
+  padding: 15px;
+  padding-bottom: 150px;
+  margin: 22px;
+  outline: none;
+  border: #E1E1E1 1px solid;
+  border-radius: 15px;
+  background-color: #F5F8FA;
 }
 
 .clientSays {
@@ -170,77 +228,6 @@ header .head-links button {
   height: 85px;
   text-align: center;
   border-radius: 50%;
-}
-
-.alotOf {
-  width: 100%;
-  padding: 20px 50px;
-}
-.alotOf button:first-child {
-  border: none;
-  outline: none;
-  margin: 35px auto;
-  display: block;
-  text-align: center;
-  padding: 8px 16px;
-  background-color: #F9F5F2;
-  border-radius: 20px;
-}
-.alotOf p {
-  text-align: center;
-  margin: 0 auto;
-  width: 500px;
-  font-size: 40px;
-  font-weight: 600;
-}
-.alotOf .grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 150px;
-  gap: 20px;
-}
-.alotOf .grid div {
-  position: relative;
-  width: 100%;
-  padding-bottom: 20px;
-  border-radius: 10px;
-  background-color: #FFFFFF;
-}
-.alotOf .grid div button {
-  position: absolute;
-  cursor: pointer;
-  left: 7%;
-  top: 50%;
-  padding: 15px 20px;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  border-radius: 20px;
-  background-color: #1E1E1E;
-  color: white;
-}
-.alotOf .grid div .button-2 {
-  background-color: #FF3C78;
-}
-.alotOf .grid div .button-3 {
-  background-color: #2241CF;
-}
-.alotOf .grid div .par {
-  margin: 15px;
-  font-weight: 100;
-  text-align: left;
-  font-size: 15px;
-}
-.alotOf .grid div img {
-  height: 250px;
-  width: 100%;
-  border-radius: 10px;
-}
-.alotOf .grid div p {
-  margin: 10px;
-  text-align: left;
-  font-size: 18px;
 }
 
 footer {
@@ -304,4 +291,4 @@ footer .footer-links .footer-bootom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}/*# sourceMappingURL=About.css.map */
+}/*# sourceMappingURL=concat.css.map */

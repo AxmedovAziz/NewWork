@@ -1,14 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  transition: 1s ease;
   box-sizing: border-box;
 }
 
 body {
-  width: 100%;
-  width: 100%;
-  margin: 0 auto;
   font-family: sans-serif;
 }
 
@@ -19,7 +15,6 @@ a {
 }
 
 header {
-  width: 100%;
   background-color: #1E1E1E;
 }
 header .head-links {
@@ -52,128 +47,82 @@ header .head-links button {
   padding: 12px 24px;
 }
 
-.five-people {
-  width: 100%;
-  text-align: center;
-  padding: 30px 0px;
-  background-color: #F9F5F2;
-}
-.five-people button {
-  padding: 15px 16px;
-  background-color: #FFDEC6;
-  border-radius: 20px;
-  margin: 0 auto;
-  border: none;
-  outline: none;
-}
-.five-people p {
-  font-size: 40px;
-  font-weight: 700;
-  color: black;
-  width: 450px;
-  margin: 15px auto;
-}
-.five-people .images-grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 20px;
-}
-.five-people .images-grid img {
-  width: 100%;
-  height: 350px;
-  border-radius: 10px;
-}
-.five-people .numbers {
-  padding: 60px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.five-people .numbers span {
-  display: block;
-}
-.five-people .numbers p {
-  font-size: 64px;
-  font-weight: 900;
-}
-.five-people .numbers p span {
-  display: inline-block;
-}
-.five-people .numbers p .spn1 {
-  color: #FF3C78;
-}
-.five-people .numbers p .spn2 {
-  color: #F0B143;
-}
-.five-people .numbers p .spn3 {
-  color: #2241CF;
-}
-.five-people .numbers p .spn4 {
-  color: black;
-}
-
-.clientSays {
+.blog {
   width: 100%;
   text-align: center;
   padding: 100px;
 }
-.clientSays button {
-  padding: 15px 16px;
-  background-color: #F9F5F2;
-  border-radius: 20px;
-  margin: 0 auto;
-  border: none;
-  outline: none;
+.blog .btn1 {
+  background-color: #FF3C78;
 }
-.clientSays p {
-  font-size: 40px;
+.blog button {
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  text-align: center;
+  margin: 20px 20px;
+}
+.blog p {
+  font-size: 32px;
+  padding-bottom: 50px;
   font-weight: 700;
   color: black;
-  width: 450px;
-  margin: 15px auto;
 }
-.clientSays .grid-clients {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 35px;
-  width: 80%;
-  margin: 0 auto;
-}
-.clientSays .grid-clients div {
-  box-shadow: 1px 1px 5px black, -3px -3px 5px black;
+.blog .grid-two {
   width: 100%;
-  padding-top: 30px;
-  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 150px;
+  gap: 25px;
+}
+.blog .grid-two div {
+  position: relative;
+  box-shadow: 1px 1px 10px black, -3px -3px 10px black;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 20px;
   border-radius: 10px;
-  padding: 15px;
+  background-color: #FFFFFF;
 }
-.clientSays .grid-clients div p {
-  font-size: 18px;
+.blog .grid-two div button {
+  position: absolute;
+  cursor: pointer;
+  left: 7%;
+  top: 55%;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: #FF3C78;
+  color: white;
 }
-.clientSays .grid-clients div .lorem {
-  width: 300px;
-  margin: 20px auto;
-  line-height: 25px;
+.blog .grid-two div .button-3 {
+  background-color: #FF3C78;
+}
+.blog .grid-two div .par {
+  margin: 5px;
+  font-weight: 100;
+  text-align: left;
   font-size: 15px;
 }
-.clientSays .grid-clients div b {
-  display: block;
-  text-align: center;
-  margin-top: -10px;
-  margin-bottom: 15px;
+.blog .grid-two div img {
+  height: 550px;
+  width: 100%;
+  border-radius: 10px;
 }
-.clientSays .grid-clients div img {
-  margin: 30px 40%;
-  width: 85px;
-  height: 85px;
-  text-align: center;
-  border-radius: 50%;
+.blog .grid-two div p {
+  margin: 5px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .alotOf {
   width: 100%;
+  background-color: #F9F5F2;
   padding: 20px 50px;
 }
 .alotOf button:first-child {
@@ -243,6 +192,67 @@ header .head-links button {
   font-size: 18px;
 }
 
+.customer-login-form {
+  width: 1300px;
+  margin: 115px auto;
+}
+.customer-login-form .login-main {
+  background: #1E1E1E;
+  border-radius: 16px;
+  color: snow;
+  display: flex;
+  justify-content: space-around;
+}
+.customer-login-form .login-main .login-main-left {
+  margin: 32px 32px;
+}
+.customer-login-form .login-main .login-main-left h1 {
+  width: 462px;
+  height: 88px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+.customer-login-form .login-main .login-main-left p {
+  width: 448px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.customer-login-form .login-main .login-main-right form {
+  display: flex;
+  flex-direction: column;
+}
+.customer-login-form .login-main .login-main-right form input {
+  margin-top: 30px;
+  width: 409px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 60px;
+  border: 2px solid #E1E1E1;
+  border-radius: 50px;
+  background-color: #1E1E1E;
+  color: snow;
+}
+.customer-login-form .login-main .login-main-right form input:nth-child(1) {
+  background: url(/NewWork/IMG/user.png) no-repeat center left 20px;
+}
+.customer-login-form .login-main .login-main-right form input:nth-child(2) {
+  background: url(/NewWork/IMG/mail.png) no-repeat center left 20px;
+}
+.customer-login-form .login-main .login-main-right button {
+  background: #FF3C78;
+  border-radius: 16px;
+  padding: 12px 40px;
+  color: snow;
+  margin: 32px 0;
+}
+
 footer {
   background-color: #1E1E1E;
   color: snow;
@@ -304,4 +314,4 @@ footer .footer-links .footer-bootom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}/*# sourceMappingURL=About.css.map */
+}/*# sourceMappingURL=blog.css.map */

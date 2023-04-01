@@ -1,47 +1,47 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
-    transition: 1s ease;
     box-sizing: border-box;
 }
-body{
-    width: 100%;
-    width: 100%;
-    margin: 0 auto;
+
+body {
     font-family: sans-serif;
 }
-a{
+
+a {
     cursor: pointer;
     text-decoration: none;
     color: snow;
 }
 
-header{
-    width: 100%;
+header {
     background-color: #1E1E1E;
-    .head-links{
-        a{
-            
+
+    .head-links {
+        a {
+
             margin-right: 40px;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
         }
-        .logo{
+
+        .logo {
             font-style: normal;
             font-weight: 700;
             font-size: 32px;
             line-height: 38px;
         }
+
         padding: 20px;
         width: 1300px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        button{
+
+        button {
             border: none;
             outline: none;
             color: snow;
@@ -52,129 +52,94 @@ header{
     }
 }
 
-.five-people{
+.blog {
     width: 100%;
     text-align: center;
-    padding: 30px 0px;
-    background-color: #F9F5F2;
-    button{
-        padding: 15px 16px ;
-        background-color: #FFDEC6;
-        border-radius: 20px;
-        margin: 0 auto;
-        border: none;
-        outline: none;
+    padding: 100px;
+
+    .btn1 {
+        background-color: #FF3C78;
     }
-    p{
-        font-size: 40px;
+
+    button {
+        padding: 15px 20px;
+        border-radius: 20px;
+        font-size: 18px;
+        outline: none;
+        border: none;
+        text-align: center;
+        margin: 20px 20px;
+    }
+
+    p {
+        font-size: 32px;
+        padding-bottom: 50px;
         font-weight: 700;
         color: black;
-        width: 450px;
-        margin: 15px auto;
     }
-    .images-grid{
+
+    .grid-two {
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap: 20px;
-        img{
+        grid-template-columns: 1fr 1fr;
+        padding: 150px;
+        gap: 25px;
+
+        div {
+            position: relative;
+            box-shadow: 1px 1px 10px black, -3px -3px 10px black;
+            margin: 0 auto;
             width: 100%;
-            height: 350px;
+            padding-bottom: 20px;
             border-radius: 10px;
+            background-color: #FFFFFF;
+
+            button {
+                position: absolute;
+                cursor: pointer;
+                left: 7%;
+                top: 55%;
+                padding: 15px 20px;
+                font-size: 16px;
+                border: none;
+                outline: none;
+                border-radius: 20px;
+                background-color: #FF3C78;
+                color: white;
+            }
+
+            .button-3 {
+                background-color: #FF3C78;
+            }
+
+            .par {
+                margin: 5px;
+                font-weight: 100;
+                text-align: left;
+                font-size: 15px;
+
+            }
+
+            img {
+                height: 550px;
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            p {
+                margin: 5px;
+                text-align: left;
+                font-weight: 700;
+                font-size: 32px;
+            }
         }
-    }
-    .numbers{
-        padding: 60px 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        span{
-            display: block;
-        }
-        p{
-            font-size: 64px;
-            font-weight: 900;
-            span{
-                display: inline-block;
-            }
-            .spn1{
-                color: #FF3C78;
-            }
-            
-            .spn2{
-                color: #F0B143;
-            }
-            .spn3{
-                color: #2241CF;
-            }
-            .spn4{
-                color: black;
-            }
-            
-        }
+
     }
 }
 
-.clientSays{
-    width: 100%;
-    text-align: center;
-    padding: 100px ;
-    button{
-        padding: 15px 16px ;
-        background-color: #F9F5F2;
-        border-radius: 20px;
-        margin: 0 auto;
-        border: none;
-        outline: none;
-    }
-    p{
-        font-size: 40px;
-        font-weight: 700;
-        color: black;
-        width: 450px;
-        margin: 15px auto;
-    }
-    .grid-clients{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 35px;
-        width: 80%;
-        margin: 0 auto;
-        div{
-            box-shadow: 1px 1px 5px  black,-3px -3px 5px  black;
-            width: 100%;
-            padding-top: 30px   ;
-            background-color: #FFFFFF;
-            border-radius: 10px;
-            padding: 15px;
-            p{
-                font-size: 18px;
-            }
-            .lorem{
-                width: 300px;
-                margin: 20px auto;
-                line-height: 25px;
-                font-size: 15px;
-            }
-            b{
-                display: block;
-                text-align: center;
-                margin-top: -10px;
-                margin-bottom: 15px;
-            }
-            img{
-                margin: 30px 40%;
-                width: 85px;
-                height: 85px;
-                text-align: center;
-                border-radius: 50%;
-            }
-        }
-    }
-}
 .alotOf {
     width: 100%;
+    background-color: #F9F5F2;
     padding: 20px 50px;
 
     button:first-child {
@@ -214,7 +179,7 @@ header{
                 position: absolute;
                 cursor: pointer;
                 left: 7%;
-                top:50%;
+                top: 50%;
                 padding: 15px 20px;
                 font-size: 16px;
                 border: none;
@@ -223,10 +188,12 @@ header{
                 background-color: #1E1E1E;
                 color: white;
             }
-            .button-2{
+
+            .button-2 {
                 background-color: #FF3C78;
             }
-            .button-3{
+
+            .button-3 {
                 background-color: #2241CF;
             }
 
@@ -244,7 +211,7 @@ header{
                 border-radius: 10px;
             }
 
-            p{
+            p {
                 margin: 10px;
                 text-align: left;
                 font-size: 18px;
@@ -254,37 +221,112 @@ header{
     }
 }
 
+.customer-login-form {
+    width: 1300px;
+    margin: 115px auto;
+
+    .login-main {
+        background: #1E1E1E;
+        border-radius: 16px;
+        color: snow;
+
+        display: flex;
+        justify-content: space-around;
+
+        .login-main-left {
+            margin: 32px 32px;
+
+            h1 {
+                width: 462px;
+                height: 88px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 44px;
+            }
+
+            p {
+                width: 448px;
+                height: 50px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                margin-top: 20px;
+            }
+        }
+
+        .login-main-right {
+            form {
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    margin-top: 30px;
+                    width: 409px;
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    padding-left: 60px;
+                    border: 2px solid #E1E1E1;
+                    border-radius: 50px;
+                    background-color: #1E1E1E;
+                    color: snow;
+                }
+
+                input:nth-child(1) {
+                    background: url(/NewWork/IMG/user.png) no-repeat center left 20px;
+                }
+
+                input:nth-child(2) {
+                    background: url(/NewWork/IMG/mail.png) no-repeat center left 20px;
+                }
+            }
+
+            button {
+                background: #FF3C78;
+                border-radius: 16px;
+                padding: 12px 40px;
+                color: snow;
+                margin: 32px 0;
+            }
+        }
+    }
+}
 
 
 
 
 
-
-
-footer{
+footer {
     background-color: #1E1E1E;
     color: snow;
     padding: 80px 80px 0px 80px;
-    .footer-links{
-        .footer-top{
+
+    .footer-links {
+        .footer-top {
             display: flex;
-            justify-content: space-between; 
-            a{
+            justify-content: space-between;
+
+            a {
                 margin-right: 40px;
                 margin-top: 20px;
             }
         }
-        a{
+
+        a {
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
 
         }
+
         width: 1300px;
         margin: 0 auto;
-        .footer-first-links{
-            h1{
+
+        .footer-first-links {
+            h1 {
                 font-style: normal;
                 font-weight: 700;
                 font-size: 40px;
@@ -292,7 +334,8 @@ footer{
                 width: 350px;
                 height: 94px;
             }
-            p{
+
+            p {
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -301,27 +344,32 @@ footer{
                 height: 96px;
                 margin: 25px 0;
             }
+
             display: flex;
             flex-direction: column;
         }
-        .overview{
+
+        .overview {
             display: flex;
             flex-direction: column;
         }
-        .pages{
+
+        .pages {
             display: flex;
             flex-direction: column;
         }
-        .connect{
+
+        .connect {
             display: flex;
             flex-direction: column;
         }
-        .footer-bootom{
+
+        .footer-bootom {
             padding: 24px;
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
         }
     }
 }
