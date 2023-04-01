@@ -6,16 +6,16 @@
   box-sizing: border-box;
 }
 
-yellow .main {
+.main {
   width: 100%;
   background-color: #1E1E1E;
   color: white;
   padding: 36px 150px;
 }
-yellow .main h1 {
+.main h1 {
   color: white;
 }
-yellow .main .navi {
+.main .navi {
   display: flex;
   width: 100%;
   padding: 36px;
@@ -23,7 +23,7 @@ yellow .main .navi {
   align-self: center;
   align-items: center;
 }
-yellow .main .navi button {
+.main .navi button {
   padding: 16px 24px;
   background-color: #FF3C78;
   border-radius: 16px;
@@ -32,42 +32,42 @@ yellow .main .navi button {
   color: white;
   font-weight: 400;
 }
-yellow .main .navi button:hover {
+.main .navi button:hover {
   box-shadow: inset 100px 0px #f7054d, inset -100px 0px #f7054d;
 }
-yellow .main .navi .login {
+.main .navi .login {
   padding-left: 200px;
 }
-yellow .main .navi a {
+.main .navi a {
   text-decoration: none;
   color: white;
 }
-yellow .main .navi a:hover {
+.main .navi a:hover {
   color: #FF3C78;
   letter-spacing: 1px;
 }
-yellow .main table {
+.main table {
   width: 100%;
 }
-yellow .main table tr th:first-child {
+.main table tr th:first-child {
   width: 50%;
 }
-yellow .main table tr th:first-child p {
+.main table tr th:first-child p {
   font-weight: 900;
   text-align: left;
   font-size: 68px;
 }
-yellow .main table tr th:first-child p em {
+.main table tr th:first-child p em {
   font-weight: 100;
 }
-yellow .main table tr th:last-child {
+.main table tr th:last-child {
   padding: 80px;
   width: 50%;
 }
-yellow .main table tr th:last-child p {
+.main table tr th:last-child p {
   text-align: left;
 }
-yellow .main table tr th:last-child button {
+.main table tr th:last-child button {
   margin: 10px 5px;
   padding: 16px 24px;
   background-color: #FF3C78;
@@ -77,13 +77,13 @@ yellow .main table tr th:last-child button {
   color: white;
   font-weight: 400;
 }
-yellow .main table tr th:last-child button span {
+.main table tr th:last-child button span {
   margin-left: 10px;
 }
-yellow .main table tr th:last-child button:hover {
+.main table tr th:last-child button:hover {
   box-shadow: inset 100px 0px #f7054d, inset -100px 0px #f7054d;
 }
-yellow .main .magman {
+.main .magman {
   margin: 0 auto;
   width: 100%;
   height: 500px;
@@ -93,7 +93,7 @@ yellow .main .magman {
   background-repeat: no-repeat;
   background-size: cover;
 }
-yellow .main .magman .kar {
+.main .magman .kar {
   position: relative;
   width: 200px;
   height: 190px;
@@ -104,25 +104,25 @@ yellow .main .magman .kar {
   left: 75%;
   border-radius: 10px;
 }
-yellow .main .magman .kar p {
+.main .magman .kar p {
   font-size: 42px;
   text-align: center;
 }
-yellow .main .magman .kar .div1 {
+.main .magman .kar .div1 {
   width: 80%;
   height: 15px;
   margin: 15px auto;
   border-radius: 10px;
   background-color: #E1E0DE;
 }
-yellow .main .magman .kar .div2 {
+.main .magman .kar .div2 {
   width: 70%;
   height: 10px;
   margin: 10px auto;
   border-radius: 10px;
   background-color: #E1E0DE;
 }
-yellow .main .magman .kar .div3 {
+.main .magman .kar .div3 {
   width: 80%;
   height: 30px;
   margin: 30px auto;
