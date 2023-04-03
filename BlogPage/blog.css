@@ -8,6 +8,10 @@ body {
   font-family: sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -127,12 +131,13 @@ header .head-links button {
 }
 .alotOf button:first-child {
   border: none;
+  font-size: 18px;
   outline: none;
   margin: 35px auto;
   display: block;
   text-align: center;
-  padding: 8px 16px;
-  background-color: #F9F5F2;
+  padding: 20px 20px;
+  background-color: white;
   border-radius: 20px;
 }
 .alotOf p {

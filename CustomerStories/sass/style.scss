@@ -172,7 +172,11 @@ main{
     display: flex;
     flex-direction: column;
     button{
-        padding: 8px 16px;
+        padding: 20px 26px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        cursor: pointer;
         background: #FF3C78;
         border-radius: 16px;
         border: none;

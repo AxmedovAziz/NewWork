@@ -8,6 +8,10 @@ body {
   font-family: sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
