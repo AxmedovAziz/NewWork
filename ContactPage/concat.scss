@@ -12,6 +12,8 @@ a{
     color: snow;
 }
 header{
+    width: 1300px;
+    margin: 0 auto;
     background-color: #1E1E1E;
     .head-links{
         a{
@@ -46,12 +48,10 @@ header{
 }
 
 .get-in-touch{
-    width: 100%;
+    margin: 0 auto;
+    width: 1300px;
     background-color: #1E1E1E;
-    padding-top: 5%;
-    padding-left: 18.5% ;
-    padding-right: 10% ;
-    padding-bottom:5% ;
+    padding: 20px 100px;
     display: flex;
     color: #FFFFFF;
     .left-div{
@@ -105,8 +105,8 @@ header{
         width: 100%;
     }
     .log-in{
-        width: 80%;
-        height: 75vh;
+        width: 90%;
+        height: 750px;
         border-radius: 10px;
         padding: 20px;
         background-color: white;
@@ -178,9 +178,10 @@ header{
     }
 }
 .clientSays{
-    width: 100%;
+    margin: 0 auto;
+    width: 1300px;
     text-align: center;
-    padding: 100px ;
+    padding: 100px 0px ;
     button{
         padding: 15px 16px ;
         background-color: #F9F5F2;
@@ -200,12 +201,12 @@ header{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 35px;
-        width: 80%;
+        width:1300px;
         margin: 0 auto;
         div{
             box-shadow: 1px 1px 5px  black,-3px -3px 5px  black;
-            width: 100%;
             padding-top: 30px   ;
+            width: 400px;
             background-color: #FFFFFF;
             border-radius: 10px;
             padding: 15px;
@@ -235,30 +236,42 @@ header{
     }
 }
 
-footer{
+
+footer {
     background-color: #1E1E1E;
+    margin: 0 auto;
+    width: 1300px;
     color: snow;
     padding: 80px 80px 0px 80px;
-    .footer-links{
-        .footer-top{
+
+    .footer-links {
+        .footer-top {
             display: flex;
-            justify-content: space-between; 
-            a{
-                margin-right: 40px;
+            justify-content: space-between;
+
+            a {
+                margin-right: 100px;
                 margin-top: 20px;
             }
         }
-        a{
+
+        a {
             font-style: normal;
+            margin-right: 100px;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
 
         }
+        hr{
+            width: 1150px;
+        }
+
         width: 1300px;
         margin: 0 auto;
-        .footer-first-links{
-            h1{
+
+        .footer-first-links {
+            h1 {
                 font-style: normal;
                 font-weight: 700;
                 font-size: 40px;
@@ -266,7 +279,8 @@ footer{
                 width: 350px;
                 height: 94px;
             }
-            p{
+
+            p {
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -275,27 +289,32 @@ footer{
                 height: 96px;
                 margin: 25px 0;
             }
+
             display: flex;
             flex-direction: column;
         }
-        .overview{
+
+        .overview {
             display: flex;
             flex-direction: column;
         }
-        .pages{
+
+        .pages {
             display: flex;
             flex-direction: column;
         }
-        .connect{
+
+        .connect {
             display: flex;
             flex-direction: column;
         }
-        .footer-bootom{
+
+        .footer-bootom {
             padding: 24px;
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
         }
     }
 }

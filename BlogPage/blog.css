@@ -20,6 +20,8 @@ a {
 
 header {
   background-color: #1E1E1E;
+  width: 1300px;
+  margin: 0 auto;
 }
 header .head-links {
   padding: 20px;
@@ -52,9 +54,10 @@ header .head-links button {
 }
 
 .blog {
-  width: 100%;
+  width: 1300px;
+  margin: 0 auto;
   text-align: center;
-  padding: 100px;
+  padding: 100px 0px;
 }
 .blog .btn1 {
   background-color: #FF3C78;
@@ -75,7 +78,8 @@ header .head-links button {
   color: black;
 }
 .blog .grid-two {
-  width: 100%;
+  width: 1300px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 150px;
@@ -125,19 +129,18 @@ header .head-links button {
 }
 
 .alotOf {
-  width: 100%;
-  background-color: #F9F5F2;
-  padding: 20px 50px;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 20px 0px;
 }
 .alotOf button:first-child {
   border: none;
-  font-size: 18px;
   outline: none;
   margin: 35px auto;
   display: block;
   text-align: center;
-  padding: 20px 20px;
-  background-color: white;
+  padding: 8px 16px;
+  background-color: #F9F5F2;
   border-radius: 20px;
 }
 .alotOf p {
@@ -148,15 +151,16 @@ header .head-links button {
   font-weight: 600;
 }
 .alotOf .grid {
-  width: 100%;
+  width: 1300px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 150px;
-  gap: 20px;
+  padding: 100px 0px;
+  gap: 10px;
 }
 .alotOf .grid div {
+  width: 400px;
   position: relative;
-  width: 100%;
   padding-bottom: 20px;
   border-radius: 10px;
   background-color: #FFFFFF;
@@ -193,6 +197,7 @@ header .head-links button {
 }
 .alotOf .grid div p {
   margin: 10px;
+  width: 380px;
   text-align: left;
   font-size: 18px;
 }
@@ -260,6 +265,8 @@ header .head-links button {
 
 footer {
   background-color: #1E1E1E;
+  margin: 0 auto;
+  width: 1300px;
   color: snow;
   padding: 80px 80px 0px 80px;
 }
@@ -272,14 +279,18 @@ footer .footer-links .footer-top {
   justify-content: space-between;
 }
 footer .footer-links .footer-top a {
-  margin-right: 40px;
+  margin-right: 100px;
   margin-top: 20px;
 }
 footer .footer-links a {
   font-style: normal;
+  margin-right: 100px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+footer .footer-links hr {
+  width: 1150px;
 }
 footer .footer-links .footer-first-links {
   display: flex;

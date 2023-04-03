@@ -15,6 +15,8 @@ a {
 }
 
 header {
+  width: 1300px;
+  margin: 0 auto;
   background-color: #1E1E1E;
 }
 header .head-links {
@@ -48,12 +50,10 @@ header .head-links button {
 }
 
 .get-in-touch {
-  width: 100%;
+  margin: 0 auto;
+  width: 1300px;
   background-color: #1E1E1E;
-  padding-top: 5%;
-  padding-left: 18.5%;
-  padding-right: 10%;
-  padding-bottom: 5%;
+  padding: 20px 100px;
   display: flex;
   color: #FFFFFF;
 }
@@ -106,8 +106,8 @@ header .head-links button {
   width: 100%;
 }
 .get-in-touch .log-in {
-  width: 80%;
-  height: 75vh;
+  width: 90%;
+  height: 750px;
   border-radius: 10px;
   padding: 20px;
   background-color: white;
@@ -173,9 +173,10 @@ header .head-links button {
 }
 
 .clientSays {
-  width: 100%;
+  margin: 0 auto;
+  width: 1300px;
   text-align: center;
-  padding: 100px;
+  padding: 100px 0px;
 }
 .clientSays button {
   padding: 15px 16px;
@@ -196,13 +197,13 @@ header .head-links button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 35px;
-  width: 80%;
+  width: 1300px;
   margin: 0 auto;
 }
 .clientSays .grid-clients div {
   box-shadow: 1px 1px 5px black, -3px -3px 5px black;
-  width: 100%;
   padding-top: 30px;
+  width: 400px;
   background-color: #FFFFFF;
   border-radius: 10px;
   padding: 15px;
@@ -232,6 +233,8 @@ header .head-links button {
 
 footer {
   background-color: #1E1E1E;
+  margin: 0 auto;
+  width: 1300px;
   color: snow;
   padding: 80px 80px 0px 80px;
 }
@@ -244,14 +247,18 @@ footer .footer-links .footer-top {
   justify-content: space-between;
 }
 footer .footer-links .footer-top a {
-  margin-right: 40px;
+  margin-right: 100px;
   margin-top: 20px;
 }
 footer .footer-links a {
   font-style: normal;
+  margin-right: 100px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+footer .footer-links hr {
+  width: 1150px;
 }
 footer .footer-links .footer-first-links {
   display: flex;
