@@ -14,12 +14,16 @@ a {
   color: snow;
 }
 
-header {
+.main-back {
+  width: 100%;
+  background-color: #1E1E1E;
+}
+.main-back header {
   width: 1300px;
   margin: 0 auto;
   background-color: #1E1E1E;
 }
-header .head-links {
+.main-back header .head-links {
   padding: 20px;
   width: 1300px;
   margin: 0 auto;
@@ -27,20 +31,20 @@ header .head-links {
   justify-content: space-between;
   align-items: center;
 }
-header .head-links a {
+.main-back header .head-links a {
   margin-right: 40px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-header .head-links .logo {
+.main-back header .head-links .logo {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
 }
-header .head-links button {
+.main-back header .head-links button {
   border: none;
   outline: none;
   color: snow;
@@ -48,8 +52,7 @@ header .head-links button {
   border-radius: 16px;
   padding: 12px 24px;
 }
-
-.get-in-touch {
+.main-back .get-in-touch {
   margin: 0 auto;
   width: 1300px;
   background-color: #1E1E1E;
@@ -57,93 +60,93 @@ header .head-links button {
   display: flex;
   color: #FFFFFF;
 }
-.get-in-touch .left-div {
+.main-back .get-in-touch .left-div {
   width: 100%;
 }
-.get-in-touch .left-div p:first-child {
+.main-back .get-in-touch .left-div p:first-child {
   width: 550px;
   font-size: 40px;
   font-weight: 900;
 }
-.get-in-touch .left-div p:nth-child(2) {
+.main-back .get-in-touch .left-div p:nth-child(2) {
   margin: 20px 0px;
   line-height: 20px;
   width: 400px;
   letter-spacing: 2px;
   font-size: 15px;
 }
-.get-in-touch .left-div p:nth-child(4) {
+.main-back .get-in-touch .left-div p:nth-child(4) {
   font-size: 32px;
   font-weight: 700;
   margin: 20px 0px;
 }
-.get-in-touch .left-div .not {
+.main-back .get-in-touch .left-div .not {
   width: 25%;
   margin: 30px 0px;
   height: 2px;
   border: 2px dotted grey;
 }
-.get-in-touch .left-div .soc {
+.main-back .get-in-touch .left-div .soc {
   font-size: 32px;
   margin: 20px 0px;
   font-weight: 600;
 }
-.get-in-touch .left-div .imm {
+.main-back .get-in-touch .left-div .imm {
   width: 30%;
 }
-.get-in-touch .left-div .imm img {
+.main-back .get-in-touch .left-div .imm img {
   margin-left: 20px;
 }
-.get-in-touch .left-div .par {
+.main-back .get-in-touch .left-div .par {
   font-size: 18px;
   letter-spacing: 2px;
   margin: 50px 0px;
 }
-.get-in-touch .left-div .par img {
+.main-back .get-in-touch .left-div .par img {
   margin: -10px 5px;
 }
-.get-in-touch .right-div {
+.main-back .get-in-touch .right-div {
   width: 100%;
 }
-.get-in-touch .log-in {
+.main-back .get-in-touch .log-in {
   width: 90%;
   height: 750px;
   border-radius: 10px;
   padding: 20px;
   background-color: white;
 }
-.get-in-touch .log-in p:first-child {
+.main-back .get-in-touch .log-in p:first-child {
   color: black;
   margin: 20px auto;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
 }
-.get-in-touch .log-in .box {
+.main-back .get-in-touch .log-in .box {
   position: relative;
   width: 100%;
   display: flex;
 }
-.get-in-touch .log-in .box .checkbox {
+.main-back .get-in-touch .log-in .box .checkbox {
   margin: 5px;
   height: 15px;
   width: 30px;
 }
-.get-in-touch .log-in .box p {
+.main-back .get-in-touch .log-in .box p {
   position: relative;
   top: 15%;
   font-size: 13px;
   line-height: 20px;
   color: #474747;
 }
-.get-in-touch .log-in button {
+.main-back .get-in-touch .log-in button {
   padding: 15px 25px;
   margin: 25px 15px;
   background-color: #2241CF;
   border-radius: 20px;
   color: white;
 }
-.get-in-touch .log-in .names {
+.main-back .get-in-touch .log-in .names {
   width: 40%;
   padding: 20px 16px;
   margin: 22px;
@@ -152,7 +155,7 @@ header .head-links button {
   border-radius: 15px;
   background-color: #F5F8FA;
 }
-.get-in-touch .log-in .worldMall {
+.main-back .get-in-touch .log-in .worldMall {
   width: 90%;
   padding: 20px 16px;
   margin: 22px;
@@ -161,7 +164,7 @@ header .head-links button {
   border-radius: 15px;
   background-color: #F5F8FA;
 }
-.get-in-touch .log-in .Message {
+.main-back .get-in-touch .log-in .Message {
   width: 90%;
   padding: 15px;
   padding-bottom: 150px;
@@ -231,40 +234,44 @@ header .head-links button {
   border-radius: 50%;
 }
 
-footer {
+.back-foot {
+  width: 100%;
+  background-color: #1E1E1E;
+}
+.back-foot footer {
   background-color: #1E1E1E;
   margin: 0 auto;
   width: 1300px;
   color: snow;
   padding: 80px 80px 0px 80px;
 }
-footer .footer-links {
+.back-foot footer .footer-links {
   width: 1300px;
   margin: 0 auto;
 }
-footer .footer-links .footer-top {
+.back-foot footer .footer-links .footer-top {
   display: flex;
   justify-content: space-between;
 }
-footer .footer-links .footer-top a {
+.back-foot footer .footer-links .footer-top a {
   margin-right: 100px;
   margin-top: 20px;
 }
-footer .footer-links a {
+.back-foot footer .footer-links a {
   font-style: normal;
   margin-right: 100px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-footer .footer-links hr {
+.back-foot footer .footer-links hr {
   width: 1150px;
 }
-footer .footer-links .footer-first-links {
+.back-foot footer .footer-links .footer-first-links {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .footer-first-links h1 {
+.back-foot footer .footer-links .footer-first-links h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -272,7 +279,7 @@ footer .footer-links .footer-first-links h1 {
   width: 350px;
   height: 94px;
 }
-footer .footer-links .footer-first-links p {
+.back-foot footer .footer-links .footer-first-links p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -281,19 +288,19 @@ footer .footer-links .footer-first-links p {
   height: 96px;
   margin: 25px 0;
 }
-footer .footer-links .overview {
+.back-foot footer .footer-links .overview {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .pages {
+.back-foot footer .footer-links .pages {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .connect {
+.back-foot footer .footer-links .connect {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .footer-bootom {
+.back-foot footer .footer-links .footer-bootom {
   padding: 24px;
   display: flex;
   justify-content: space-between;

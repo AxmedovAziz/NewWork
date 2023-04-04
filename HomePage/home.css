@@ -16,20 +16,24 @@ a {
   color: snow;
 }
 
-.main {
+.back-main {
+  width: 100%;
+  background-color: #1E1E1E;
+}
+.back-main .main {
   width: 1300px;
   margin: 0 auto;
   background-color: #1E1E1E;
   color: white;
   padding: 36px 150px;
 }
-.main h1 {
+.back-main .main h1 {
   color: white;
 }
-.main header {
+.back-main .main header {
   background-color: #1E1E1E;
 }
-.main header .head-links {
+.back-main .main header .head-links {
   padding: 20px;
   width: 100%;
   margin: 0 auto;
@@ -37,20 +41,20 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.main header .head-links a {
+.back-main .main header .head-links a {
   margin-right: 40px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-.main header .head-links .logo {
+.back-main .main header .head-links .logo {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
 }
-.main header .head-links button {
+.back-main .main header .head-links button {
   border: none;
   outline: none;
   color: snow;
@@ -58,28 +62,28 @@ a {
   border-radius: 16px;
   padding: 12px 24px;
 }
-.main table {
+.back-main .main table {
   width: 100%;
 }
-.main table tr th:first-child {
+.back-main .main table tr th:first-child {
   width: 50%;
 }
-.main table tr th:first-child p {
+.back-main .main table tr th:first-child p {
   font-weight: 900;
   text-align: left;
   font-size: 68px;
 }
-.main table tr th:first-child p em {
+.back-main .main table tr th:first-child p em {
   font-weight: 100;
 }
-.main table tr th:last-child {
+.back-main .main table tr th:last-child {
   padding: 80px;
   width: 50%;
 }
-.main table tr th:last-child p {
+.back-main .main table tr th:last-child p {
   text-align: left;
 }
-.main table tr th:last-child button {
+.back-main .main table tr th:last-child button {
   margin: 10px 5px;
   padding: 16px 24px;
   background-color: #FF3C78;
@@ -89,13 +93,13 @@ a {
   color: white;
   font-weight: 400;
 }
-.main table tr th:last-child button span {
+.back-main .main table tr th:last-child button span {
   margin-left: 10px;
 }
-.main table tr th:last-child button:hover {
+.back-main .main table tr th:last-child button:hover {
   box-shadow: inset 100px 0px #f7054d, inset -100px 0px #f7054d;
 }
-.main .magman {
+.back-main .main .magman {
   margin: 0 auto;
   width: 85%;
   height: 500px;
@@ -105,7 +109,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main .magman .kar {
+.back-main .main .magman .kar {
   position: relative;
   width: 200px;
   height: 190px;
@@ -116,25 +120,25 @@ a {
   left: 75%;
   border-radius: 10px;
 }
-.main .magman .kar p {
+.back-main .main .magman .kar p {
   font-size: 42px;
   text-align: center;
 }
-.main .magman .kar .div1 {
+.back-main .main .magman .kar .div1 {
   width: 80%;
   height: 15px;
   margin: 15px auto;
   border-radius: 10px;
   background-color: #E1E0DE;
 }
-.main .magman .kar .div2 {
+.back-main .main .magman .kar .div2 {
   width: 70%;
   height: 10px;
   margin: 10px auto;
   border-radius: 10px;
   background-color: #E1E0DE;
 }
-.main .magman .kar .div3 {
+.back-main .main .magman .kar .div3 {
   width: 80%;
   height: 30px;
   margin: 30px auto;
@@ -142,48 +146,52 @@ a {
   background-color: #59D7C9;
 }
 
-.secmain {
+.back-sec {
+  background-color: #F9F5F2;
+  width: 100%;
+}
+.back-sec .secmain {
   width: 1300px;
   margin: 0 auto;
   background-color: #F9F5F2;
   display: flex;
   padding: 50px;
 }
-.secmain div:first-child {
+.back-sec .secmain div:first-child {
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: centers;
   width: 50%;
 }
-.secmain div:first-child img {
+.back-sec .secmain div:first-child img {
   margin: 0 auto;
 }
-.secmain div:last-child {
+.back-sec .secmain div:last-child {
   padding: 50px;
   width: 50%;
 }
-.secmain div:last-child p:first-child {
+.back-sec .secmain div:last-child p:first-child {
   font-size: 40px;
   font-weight: 700;
 }
-.secmain div:last-child p:nth-child(3) {
+.back-sec .secmain div:last-child p:nth-child(3) {
   letter-spacing: 2px;
 }
-.secmain div:last-child table {
+.back-sec .secmain div:last-child table {
   margin: 30px 0px;
   width: 240px;
 }
-.secmain div:last-child table tr th:first-child {
+.back-sec .secmain div:last-child table tr th:first-child {
   background-color: 0;
   width: 10%;
 }
-.secmain div:last-child table tr th:last-child {
+.back-sec .secmain div:last-child table tr th:last-child {
   width: 30%;
   font-weight: 100;
   font-size: 14px;
 }
-.secmain div:last-child button {
+.back-sec .secmain div:last-child button {
   display: block;
   margin: 25px 3px;
   padding: 16px 24px;
@@ -194,13 +202,13 @@ a {
   color: white;
   font-weight: 400;
 }
-.secmain div:last-child button:hover {
+.back-sec .secmain div:last-child button:hover {
   box-shadow: inset 100px 0px #0230ff, inset -100px 0px #0331fd;
 }
 
 .thrmain {
   width: 1300px;
-  margin: 0 auto;
+  margin: 200px auto;
   display: flex;
 }
 .thrmain div:first-child {
@@ -277,14 +285,19 @@ a {
   margin: 40px auto;
 }
 
-.fourmain {
+.four-back {
+  background-color: #F9F5F2;
+  width: 100%;
+}
+.four-back .fourmain {
   width: 1300px;
+  height: 700px;
   margin: 0 auto;
   background-color: #F9F5F2;
   display: flex;
   padding: 50px;
 }
-.fourmain div:first-child {
+.four-back .fourmain .procent {
   position: relative;
   padding: 20px;
   display: flex;
@@ -292,12 +305,12 @@ a {
   align-items: center;
   width: 50%;
 }
-.fourmain div:first-child img {
+.four-back .fourmain .procent img {
   text-align: center;
   height: 100%;
   margin: 0 auto;
 }
-.fourmain div:first-child .bigg {
+.four-back .fourmain .procent .bigg {
   top: 45%;
   position: absolute;
   display: block;
@@ -307,60 +320,60 @@ a {
   height: 250px;
   width: 220px;
 }
-.fourmain div:first-child .bigg p:first-child {
+.four-back .fourmain .procent .bigg p:first-child {
   position: relative;
 }
-.fourmain div:first-child .bigg .grid {
+.four-back .fourmain .procent .bigg .grid {
   display: flex;
   justify-content: center;
   width: 100%;
   margin: 0 auto;
   height: 50%;
 }
-.fourmain div:first-child .bigg .grid span {
+.four-back .fourmain .procent .bigg .grid span {
   width: 10px;
   border-radius: 20px;
   padding: 40px 8px;
   height: 50px;
   background-color: black;
 }
-.fourmain div:first-child .bigg .grid .sp1 {
+.four-back .fourmain .procent .bigg .grid .sp1 {
   padding: 25px 8px;
   margin: 20px 10px;
   position: relative;
   top: 100%;
 }
-.fourmain div:first-child .bigg .grid .sp2 {
+.four-back .fourmain .procent .bigg .grid .sp2 {
   padding: 50px 8px;
   margin: -25px 10px;
   color: #FF3C78;
   background-color: #FF3C78;
   position: relative;
 }
-.fourmain div:first-child .bigg .grid .sp3 {
+.four-back .fourmain .procent .bigg .grid .sp3 {
   padding: 35px 8px;
   margin: 5px 10px;
   background-color: black;
   position: relative;
 }
-.fourmain div:first-child .bigg .grid .sp4 {
+.four-back .fourmain .procent .bigg .grid .sp4 {
   padding: 15px 8px;
   margin: 25px 10px;
   color: black;
   background-color: black;
   position: relative;
 }
-.fourmain div:first-child .bigg .word {
+.four-back .fourmain .procent .bigg .word {
   margin: 10px 2px;
   position: relative;
   display: flex;
 }
-.fourmain div:first-child .bigg .word p {
+.four-back .fourmain .procent .bigg .word p {
   position: relative;
   font-size: 40px;
   font-weight: 700;
 }
-.fourmain div:first-child .bigg .word span {
+.four-back .fourmain .procent .bigg .word span {
   display: flex;
   margin: 0px 5px;
   justify-content: center;
@@ -373,34 +386,34 @@ a {
   background-color: magenta;
   border-radius: 20px;
 }
-.fourmain div:last-child {
+.four-back .fourmain div:last-child {
   padding: 50px;
   width: 50%;
 }
-.fourmain div:last-child p:first-child {
+.four-back .fourmain div:last-child p:first-child {
   font-size: 40px;
   font-weight: 700;
 }
-.fourmain div:last-child p:nth-child(3) {
+.four-back .fourmain div:last-child p:nth-child(3) {
   letter-spacing: 2px;
 }
-.fourmain div:last-child .tables {
+.four-back .fourmain div:last-child .tables {
   width: 600px;
   margin: 30px auto;
 }
-.fourmain div:last-child .tables .img1 {
+.four-back .fourmain div:last-child .tables .img1 {
   margin: -15px auto;
   padding: 20px 15px;
   background-color: white;
   border-radius: 50%;
 }
-.fourmain div:last-child .tables .img2 {
+.four-back .fourmain div:last-child .tables .img2 {
   margin: -25px auto;
   padding: 15px;
   background-color: white;
   border-radius: 50%;
 }
-.fourmain div:last-child .tables .btn1 {
+.four-back .fourmain div:last-child .tables .btn1 {
   display: inline-block;
   margin: 25px 3px;
   padding: 16px 24px;
@@ -411,10 +424,10 @@ a {
   color: white;
   font-weight: 400;
 }
-.fourmain div:last-child .tables .btn1:hover {
+.four-back .fourmain div:last-child .tables .btn1:hover {
   box-shadow: inset 100px 0px #0230ff, inset -100px 0px #0331fd;
 }
-.fourmain div:last-child .tables .btn {
+.four-back .fourmain div:last-child .tables .btn {
   padding: 16px 24px;
   background-color: #FF3C78;
   border-radius: 16px;
@@ -424,7 +437,7 @@ a {
   color: white;
   font-weight: 400;
 }
-.fourmain div:last-child .tables .btn:hover {
+.four-back .fourmain div:last-child .tables .btn:hover {
   box-shadow: inset 100px 0px #f7054d, inset -100px 0px #f7054d;
 }
 
@@ -554,11 +567,13 @@ a {
 }
 
 .sixmain {
+  padding: 0px;
   width: 1300px;
   margin: 0 auto;
 }
 .sixmain .imgdiv {
   margin: 20px;
+  border-radius: 20px;
   padding: 20px;
   background: url(/NewWork/IMG/Mask\ group.png);
   text-align: center;
@@ -581,69 +596,72 @@ a {
   width: 250px;
   color: white;
 }
-.sixmain .com {
+
+.com {
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: center;
   align-content: center;
 }
-.sixmain .com a {
+.com a {
   text-decoration: none;
   color: black;
   font-size: 20px;
   margin: 10px 30px;
 }
-.sixmain .com a img {
+.com a img {
   margin: 30px 0px;
   height: 40px;
   width: 150px;
 }
-.sixmain .love {
+
+.love {
   background-color: #F9F5F2;
+  border-radius: 20px;
   width: 100%;
   padding: 40px;
   text-align: center;
 }
-.sixmain .love p {
+.love p {
   margin: 0 auto;
   font-size: 40px;
   font-weight: 700;
   color: black;
   width: 500px;
 }
-.sixmain .love .grid {
+.love .grid {
   padding: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
-.sixmain .love .grid div {
+.love .grid div {
   position: relative;
   width: 100%;
   background-color: #FFFFFF;
   padding: 20px;
   border-radius: 10px;
 }
-.sixmain .love .grid div table {
+.love .grid div table {
   margin: 30px auto;
   width: 240px;
 }
-.sixmain .love .grid div table th p {
+.love .grid div table th p {
   text-align: left;
   font-size: 14px;
   font-weight: 100;
   letter-spacing: 2px;
   width: 300px;
 }
-.sixmain .love .grid div table th img {
+.love .grid div table th img {
   margin-right: 20px;
 }
-.sixmain .love .grid div table tr th:first-child {
+.love .grid div table tr th:first-child {
   background-color: 0;
   width: 10%;
 }
-.sixmain .love .grid div table tr th:last-child {
+.love .grid div table tr th:last-child {
   width: 30%;
   font-weight: 100;
   font-size: 14px;
@@ -724,6 +742,7 @@ a {
 }
 
 .customer-login-form {
+  padding: 0px;
   width: 1300px;
   margin: 115px auto;
 }
@@ -784,40 +803,44 @@ a {
   margin: 32px 0;
 }
 
-footer {
+.foot-back {
+  margin: 0 auto;
+  background-color: #1E1E1E;
+}
+.foot-back footer {
   background-color: #1E1E1E;
   margin: 0 auto;
   width: 1300px;
   color: snow;
   padding: 80px 80px 0px 80px;
 }
-footer .footer-links {
+.foot-back footer .footer-links {
   width: 1300px;
   margin: 0 auto;
 }
-footer .footer-links .footer-top {
+.foot-back footer .footer-links .footer-top {
   display: flex;
   justify-content: space-between;
 }
-footer .footer-links .footer-top a {
+.foot-back footer .footer-links .footer-top a {
   margin-right: 100px;
   margin-top: 20px;
 }
-footer .footer-links a {
+.foot-back footer .footer-links a {
   font-style: normal;
   margin-right: 100px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-footer .footer-links hr {
+.foot-back footer .footer-links hr {
   width: 1150px;
 }
-footer .footer-links .footer-first-links {
+.foot-back footer .footer-links .footer-first-links {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .footer-first-links h1 {
+.foot-back footer .footer-links .footer-first-links h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -825,7 +848,7 @@ footer .footer-links .footer-first-links h1 {
   width: 350px;
   height: 94px;
 }
-footer .footer-links .footer-first-links p {
+.foot-back footer .footer-links .footer-first-links p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -834,19 +857,19 @@ footer .footer-links .footer-first-links p {
   height: 96px;
   margin: 25px 0;
 }
-footer .footer-links .overview {
+.foot-back footer .footer-links .overview {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .pages {
+.foot-back footer .footer-links .pages {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .connect {
+.foot-back footer .footer-links .connect {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .footer-bootom {
+.foot-back footer .footer-links .footer-bootom {
   padding: 24px;
   display: flex;
   justify-content: space-between;

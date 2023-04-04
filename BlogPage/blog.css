@@ -18,12 +18,16 @@ a {
   color: snow;
 }
 
-header {
+.main-back {
+  width: 100%;
+  background-color: #1E1E1E;
+}
+.main-back header {
   background-color: #1E1E1E;
   width: 1300px;
   margin: 0 auto;
 }
-header .head-links {
+.main-back header .head-links {
   padding: 20px;
   width: 1300px;
   margin: 0 auto;
@@ -31,20 +35,20 @@ header .head-links {
   justify-content: space-between;
   align-items: center;
 }
-header .head-links a {
+.main-back header .head-links a {
   margin-right: 40px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-header .head-links .logo {
+.main-back header .head-links .logo {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
 }
-header .head-links button {
+.main-back header .head-links button {
   border: none;
   outline: none;
   color: snow;
@@ -263,40 +267,44 @@ header .head-links button {
   margin: 32px 0;
 }
 
-footer {
+.main-back {
+  width: 100%;
+  background-color: #1E1E1E;
+}
+.main-back footer {
   background-color: #1E1E1E;
   margin: 0 auto;
   width: 1300px;
   color: snow;
   padding: 80px 80px 0px 80px;
 }
-footer .footer-links {
+.main-back footer .footer-links {
   width: 1300px;
   margin: 0 auto;
 }
-footer .footer-links .footer-top {
+.main-back footer .footer-links .footer-top {
   display: flex;
   justify-content: space-between;
 }
-footer .footer-links .footer-top a {
+.main-back footer .footer-links .footer-top a {
   margin-right: 100px;
   margin-top: 20px;
 }
-footer .footer-links a {
+.main-back footer .footer-links a {
   font-style: normal;
   margin-right: 100px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-footer .footer-links hr {
+.main-back footer .footer-links hr {
   width: 1150px;
 }
-footer .footer-links .footer-first-links {
+.main-back footer .footer-links .footer-first-links {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .footer-first-links h1 {
+.main-back footer .footer-links .footer-first-links h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -304,7 +312,7 @@ footer .footer-links .footer-first-links h1 {
   width: 350px;
   height: 94px;
 }
-footer .footer-links .footer-first-links p {
+.main-back footer .footer-links .footer-first-links p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -313,19 +321,19 @@ footer .footer-links .footer-first-links p {
   height: 96px;
   margin: 25px 0;
 }
-footer .footer-links .overview {
+.main-back footer .footer-links .overview {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .pages {
+.main-back footer .footer-links .pages {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .connect {
+.main-back footer .footer-links .connect {
   display: flex;
   flex-direction: column;
 }
-footer .footer-links .footer-bootom {
+.main-back footer .footer-links .footer-bootom {
   padding: 24px;
   display: flex;
   justify-content: space-between;
